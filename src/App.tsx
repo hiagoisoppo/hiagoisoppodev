@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           </h1>
         }
       />
+      <Route path="/dashboard" Component={ Dashboard } />
     </Routes>
   );
 }
