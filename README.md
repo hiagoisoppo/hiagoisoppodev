@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+<img src="/public/Preview.png" alt="Application Preview" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfólio Temporário
 
-Currently, two official plugins are available:
+![Static Badge](https://img.shields.io/badge/ViteJs-4.4.5-yellow)
+![Static Badge](https://img.shields.io/badge/TypeScript-5.0.2-blue)
+![Static Badge](https://img.shields.io/badge/ReactJs-18.2.0-blue)
+![Static Badge](https://img.shields.io/badge/TailwindCss-3.3.3-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Descrição:
+Uma página estática, desenvolvida para redirecionar os recrutadores aos meus perfis de Linkedin e Github, durante a construção de meu [portfólio principal](https://hiagoisoppo.dev/).
+  
+### Funcionalidades:
+- Avisar os recrutadores que meu [portfólio principal](https://hiagoisoppo.dev/) ainda estava em construção.
+- Redirecionar os recrutadores para meu [Linkedin](https://www.linkedin.com/in/hiagoisoppo/).
+- Redirecionar os recrutadores para meu [Github](https://github.com/hiagoisoppo).
+- Redirecionar os recrutadores para meu [Email](mailto:hiagoisoppotrajano@gmail.com).
+- Redirecionar os recrutadores para meu [WhatsApp](https://api.whatsapp.com/send?phone=5548920003855).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Como acessar a aplicação:
+  - Abra o terminal e faça um clone do repositório.
+  ```bash
+    git clone git@github.com:hiagoisoppo/hiagoisoppodev.git
+  ```
+  - Acesse a pasta clonada do repositório, e instale as dependências.
+  ```bash
+    cd hit-news
+    npm install
+  ```
+  - Inicie o servidor de desenvolvimento.
+  ```bash
+    npm run dev
+  ```
+  - Abra o navegador no endereço [http://localhost:5173](http://localhost:5173).
