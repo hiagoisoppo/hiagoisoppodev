@@ -24,7 +24,7 @@ Uma página estática, desenvolvida para redirecionar os recrutadores aos meus p
   ```
   - Acesse a pasta clonada do repositório, e instale as dependências.
   ```bash
-    cd hit-news
+    cd hiagoisoppodev
     npm install
   ```
   - Inicie o servidor de desenvolvimento.
